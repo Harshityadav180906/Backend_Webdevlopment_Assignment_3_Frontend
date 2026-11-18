@@ -102,12 +102,11 @@ function App() {
       {/* Sidebar / Navigation */}
       <nav className="sidebar">
         <div className="logo-container">
-          <div className="logo-icon"><Package size={28} /></div>
+          <img src="/logo.png" alt="Lumina Logo" style={{ height: '32px', width: 'auto', borderRadius: '6px' }} />
           <h2>Lumina</h2>
         </div>
         <div className="nav-links">
           <button className="nav-item active"><LayoutDashboard size={20} /> Dashboard</button>
-          <button className="nav-item"><Tags size={20} /> Categories</button>
         </div>
         <div className="theme-toggle-wrapper">
           <button className="theme-toggle" onClick={toggleTheme}>
